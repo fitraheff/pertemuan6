@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1rbM_SIUWmHfv5cDQBd788zs0wJt7gVDI
 """
 
-!pip install streamlit
 
 import streamlit as st
 from google.colab import drive
@@ -66,5 +65,3 @@ if st.button("Predict", type="primary"):
         st.title(':red[Female]')
     else:
         st.title(':blue[Male]')
-
-!streamlit run Pertemuan6_202143501729_MuhamadFitrahRamadhanEffendi_Streamlit.py
