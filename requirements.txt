@@ -19,7 +19,7 @@ numba==0.58.1
 numexpr==2.10.0
 openpyxl==3.1.2
 pandas-gbq==0.19.2
-pyarrow==4.0.2
+pyarrow
 scipy==1.11.4
 sqlalchemy==2.0.29
 tables==3.8.0
@@ -31,3 +31,5 @@ seaborn==0.11.2
 scikit-learn==1.0.2
 joblib==1.1.0
 streamlit==1.11.0
+psycopg2-binary==2.9.9
+
